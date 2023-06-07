@@ -1,0 +1,110 @@
+{
+    "name": "PlayerInputActions",
+    "maps": [
+        {
+            "name": "PlayerTouch",
+            "id": "158ce7cd-5d66-46e9-a9e0-427dcd53535c",
+            "actions": [
+                {
+                    "name": "TouchPosition",
+                    "type": "PassThrough",
+                    "id": "1963a591-bc42-4dc0-ad2b-ecc3e8866822",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Touch",
+                    "type": "Button",
+                    "id": "a0d7f25e-1e26-4755-b6c3-4e017ed7cfe3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1a195eca-0545-4e1d-8524-4f9abe7c09d0",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "325f72fb-492f-4d1b-ab0e-20e1cefbaddd",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "BackButton",
+            "id": "3aef325a-c93a-46b3-ada2-575b85741fb9",
+            "actions": [
+                {
+                    "name": "BackButton Pressed",
+                    "type": "Button",
+                    "id": "5458f35f-a5d9-4306-8c7f-5c217f66b8a9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "438627f5-b25a-482a-bc56-7a1356c3bbdf",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BackButton Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "PlayerGameMovement",
+            "id": "0c2e69fe-ff7d-4671-970a-0d0d0c3f0d38",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Value",
+                    "id": "7ab50a7d-2625-452d-a1dc-e08279117b61",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ed9bad5f-03cc-4b78-948c-e9b9fc640335",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

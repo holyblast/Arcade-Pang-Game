@@ -1,0 +1,301 @@
+{
+  "enemyVelocityData": {
+    "0": {
+      "x": 0,
+      "y": 0
+    },
+    "1": {
+      "x": 2.5,
+      "y": 8
+    },
+    "2": {
+      "x": 2.5,
+      "y": 9
+    },
+    "3": {
+      "x": 2.5,
+      "y": 10
+    },
+    "4": {
+      "x": 2.5,
+      "y": 11
+    },
+    "5": {
+      "x": 2.5,
+      "y": 11.5
+    }
+  },
+  "enemySizeData": {
+    "0": 0,
+    "1": 0.15,
+    "2": 0.3,
+    "3": 0.6,
+    "4": 1,
+    "5": 1.5
+  },
+  "maxWeaponUsageInEffect": {
+    "0": 0,
+    "1": 1
+  },
+  "levelData": [
+    {
+      "backgroundType": 1,
+      "areaStages": [
+        {
+          "backgroundColor": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "time": 90,
+          "playerStartingPosition": {
+            "x": 0,
+            "y": -5.984981
+          },
+          "enemyData": [
+            {
+              "startingPosition": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 127,
+                "a": 255
+              },
+              "bubbleSize": 3,
+              "initialDirection": 1
+            }
+          ]
+        },
+        {
+          "backgroundColor": {
+            "r": 200,
+            "g": 200,
+            "b": 200,
+            "a": 255
+          },
+          "time": 85,
+          "playerStartingPosition": {
+            "x": 0,
+            "y": -5.984981
+          },
+          "enemyData": [
+            {
+              "startingPosition": {
+                "x": -1,
+                "y": 0
+              },
+              "color": {
+                "r": 0,
+                "g": 127,
+                "b": 0,
+                "a": 255
+              },
+              "bubbleSize": 3,
+              "initialDirection": -1
+            },
+            {
+              "startingPosition": {
+                "x": 1,
+                "y": 0
+              },
+              "color": {
+                "r": 127,
+                "g": 0,
+                "b": 0,
+                "a": 255
+              },
+              "bubbleSize": 3,
+              "initialDirection": 1
+            }
+          ]
+        },
+        {
+          "backgroundColor": {
+            "r": 100,
+            "g": 100,
+            "b": 100,
+            "a": 255
+          },
+          "time": 80,
+          "playerStartingPosition": {
+            "x": 0,
+            "y": -5.984981
+          },
+          "enemyData": [
+            {
+              "startingPosition": {
+                "x": -3,
+                "y": 0
+              },
+              "color": {
+                "r": 0,
+                "g": 127,
+                "b": 0,
+                "a": 255
+              },
+              "bubbleSize": 2,
+              "initialDirection": -1
+            },
+            {
+              "startingPosition": {
+                "x": -3,
+                "y": 0
+              },
+              "color": {
+                "r": 127,
+                "g": 127,
+                "b": 0,
+                "a": 255
+              },
+              "bubbleSize": 2,
+              "initialDirection": -1
+            },
+            {
+              "startingPosition": {
+                "x": 2,
+                "y": 0
+              },
+              "color": {
+                "r": 127,
+                "g": 0,
+                "b": 0,
+                "a": 255
+              },
+              "bubbleSize": 2,
+              "initialDirection": 1
+            },
+            {
+              "startingPosition": {
+                "x": 5,
+                "y": 0
+              },
+              "color": {
+                "r": 127,
+                "g": 0,
+                "b": 0,
+                "a": 255
+              },
+              "bubbleSize": 2,
+              "initialDirection": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "backgroundType": 2,
+      "areaStages": [
+        {
+          "backgroundColor": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "time": 75,
+          "playerStartingPosition": {
+            "x": 0,
+            "y": -5.984981
+          },
+          "enemyData": [
+            {
+              "startingPosition": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 127,
+                "a": 255
+              },
+              "bubbleSize": 4,
+              "initialDirection": 1
+            }
+          ]
+        },
+        {
+          "backgroundColor": {
+            "r": 200,
+            "g": 200,
+            "b": 200,
+            "a": 255
+          },
+          "time": 75,
+          "playerStartingPosition": {
+            "x": 0,
+            "y": -5.984981
+          },
+          "enemyData": [
+            {
+              "startingPosition": {
+                "x": -1,
+                "y": 0
+              },
+              "color": {
+                "r": 0,
+                "g": 127,
+                "b": 0,
+                "a": 255
+              },
+              "bubbleSize": 2,
+              "initialDirection": -1
+            },
+            {
+              "startingPosition": {
+                "x": 1,
+                "y": 0
+              },
+              "color": {
+                "r": 127,
+                "g": 0,
+                "b": 0,
+                "a": 255
+              },
+              "bubbleSize": 4,
+              "initialDirection": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "backgroundType": 3,
+      "areaStages": [
+        {
+          "backgroundColor": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "time": 75,
+          "playerStartingPosition": {
+            "x": 0,
+            "y": -5.984981
+          },
+          "enemyData": [
+            {
+              "startingPosition": {
+                "x": 0,
+                "y": 0
+              },
+              "color": {
+                "r": 0,
+                "g": 0,
+                "b": 127,
+                "a": 255
+              },
+              "bubbleSize": 5,
+              "initialDirection": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

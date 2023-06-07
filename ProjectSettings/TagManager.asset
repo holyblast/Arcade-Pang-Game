@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Walls
+  - Ground
+  - Top
+  - Hook
+  - AreaSelect
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 1638231557
+    locked: 0
+  - name: Ground Decoration1
+    uniqueID: 311514451
+    locked: 0
+  - name: Ground Decoration2
+    uniqueID: 164948207
+    locked: 0
+  - name: Front
+    uniqueID: 3996358377
+    locked: 0
+  - name: Top
+    uniqueID: 3889265831
+    locked: 0
